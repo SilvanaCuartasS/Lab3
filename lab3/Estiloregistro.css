@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background: rgb(81,212,173);
+background: linear-gradient(90deg, rgba(81,212,173,1) 26%, rgba(52,69,175,1) 87%);
+}
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor__cajita {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    margin-left: -750px;
+}
+.contenedor__cajita--two {
+    margin-left: 400px;
+}
+.contenedor__cajita--libro {
+    margin-top: -580px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.contenedor__cajita--shangai {
+    margin-left: 50px;
+    margin-top: -25px;
+    font-size: 10px;
+}
+.contenedor__cajita--foto {
+    text-align: center;
+    margin: 5rem;
+    border-radius: 50%;
+}
+.contenedor__cajita--mensajes {
+    text-align: center;
+    font-size: 11px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+}
+.contenedor__cajita--cajausername {
+    text-align: initial;
+    padding-left: 1rem;
+    margin: 0.5rem;
+    margin-left: 40px;
+    width: 320px;
+    height: 30px;
+    border-color: rgb(238, 233, 226, .2);
+    border-bottom: 0.5px solid transparent;
+}
+.contenedor__cajita--bottom {
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    margin-left: 2.5rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    background: rgb(81,91,212);
+    background: linear-gradient(90deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 50%, rgba(221,42,123,1) 100%);
+}
+.contenedor__cajita--forgot {
+    text-align: end;
+    margin-top: -25px;
+    margin-right: 30px;
+    font-size: 13px;
+    color: rgb(158, 158, 158);
+}
+.contenedor__cajita--cajausername--codigo {
+    text-align: end;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-top: -32px;
+}
+
+    

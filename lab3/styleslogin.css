@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background: rgb(81,91,212);
+background: linear-gradient(90deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 50%, rgba(221,42,123,1) 100%);
+}
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor__cajita {
+    background-color: white;
+    width: 390px;
+    height: 550px;
+    text-align: center;
+    border-radius: 10px;
+}
+.contenedor__cajita--login {
+    margin: 2rem;
+}
+.contenedor__cajita--username {
+    text-align: initial;
+    padding-left: 1.7rem;
+    margin: 1rem;
+    
+}
+.contenedor__cajita--cajausername {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 0.5px solid black;
+    padding-left: 30px;
+}
+.contenedor__cajita--password {
+    text-align: initial;
+    padding-left: 1.7rem;
+    margin: 1rem;
+}
+.contenedor__cajita--forgotpassword {
+    text-align: end;
+    padding-right: 2rem;
+    margin: 0.5rem;
+    font-size: 14px;
+}
+.contenedor__cajita--bottom {
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: 730;
+    font-size: 15px;
+    color: white;
+    background: rgb(81,91,212);
+    background: linear-gradient(90deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 50%, rgba(221,42,123,1) 100%);
+}
+.contenedor__cajita--signin {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.contenedor__cajita--signindos {
+    margin-top: 70px;
+    font-size: 14px;
+}
+.contenedor__cajita--iconos {
+    margin-top: 10px;
+    font-size: 35px;
+}
+.contenedor__cajita--singup {
+    margin-top: 4px;
+    font-size: 15px;
+}
+.icono {
+    display: block;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.iconodos {
+    display: block;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+    
+
+
+
